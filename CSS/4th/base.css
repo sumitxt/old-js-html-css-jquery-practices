@@ -1,0 +1,16 @@
+/*#gradient{
+	height:500px;
+	width:1200px;
+	background-image:url('img/bg.jpg');
+	background-repeat:no-repeat;
+	background-position:center center;
+	border:1px solid red;
+}*/
+
+#gradient{
+	height:500px;
+	width:1200px;
+	background-image:linear-gradient(left,red,black);
+	background-image:-moz-linear-gradient(left,red,black);
+	background-image:-webkit-linear-gradient(left,red,black);
+}

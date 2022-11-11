@@ -1,0 +1,45 @@
+<html>
+	<title>Dynamic styling</title>
+<head>
+
+</head>
+<body onload="header()">
+	<header>
+		<h1>Dynamic styling</h1>
+		<p id="headerp1">Dynamic styling</p>
+	</header>
+	<article>
+		<h1>Styling header number 2</h1>
+		<p id="myElement" onmouseover="onMouse()" onmouseout="onMouseout()">A simple paragraph. A simple paragraph. A simple paragraph. A simple paragraph. A simple paragraph. A simple paragraph. A simple paragraph. A simple paragraph. A simple paragraph.</p>
+	</article>
+	<script>
+	 	function header(){
+			var h=document.getElementById("headerp1");
+			h.style.color="red";
+			h.style.textAlign="center";
+			h.style.backgroundColor="coral";
+			h.style.border="6px dotted #0f0"
+	 }
+		function onMouse(){
+			var e=document.getElementById("myElement");
+			e.style.color="00f";
+			e.style.textAlign="center";
+			e.style.backgroundColor="#fff";
+			e.style.border="5px solid #f00";}
+		function onMouseout(){
+			var e=document.getElementById("myElement");
+			e.style.color="red";
+			e.style.textAlign="center";
+			e.style.backgroundColor="green";
+			e.style.border="5px solid #00f";
+	}
+			var h1=document.getElementsByTagName('h1')[0];
+			h1.style.textDecoration="underline";
+			var h2=document.getElementsByTagName('h1')[1];
+			h2.style.borderLeft="3px solid #ccc";
+			h2.style.textAlign="right";
+	
+	</script>
+
+</body>
+</html>

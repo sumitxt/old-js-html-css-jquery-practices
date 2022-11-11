@@ -1,0 +1,45 @@
+#wrapper{
+	background-color:#ccc;
+	color:#000;
+	font-size:1.3em;
+	width:80%;
+	margin:20px auto;
+}
+
+form{
+	width:450px;
+	height:auto;
+}
+
+form p{
+	padding:0 0 10px 0;
+	width:450px;
+	float:left;
+}
+
+form label{
+	float:left;
+	width:120px;
+}
+
+form input,form textarea{
+	float:right;
+	width:250px;
+	box-shadow:inset -2px 1px 2px 2px rgba(0,0,0,0.1);
+	-moz-box-shadow:inset -2px 1px 2px 2px rgba(0,0,0,0.1);
+	-webkit-box-shadow:inset -2px 1px 2px 2px rgba(0,0,0,0.1);
+	padding:4px;
+}
+
+form input[type="submit"]{
+	float:none;
+	width:auto;
+	padding:5px;
+	border-radius:3px;
+}
+
+form textarea:focus,form input:focus{
+	background-color:aliceBlue;
+	border:1px solid skyblue;
+}
+

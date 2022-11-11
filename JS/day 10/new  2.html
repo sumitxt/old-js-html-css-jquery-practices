@@ -1,0 +1,33 @@
+<html>
+<head>
+<script>
+ function writeText(){
+	var output=document.getElementById("ball");
+		output.innerHTML="<h1>This is a ball</h1>"
+ }
+
+</script>
+<style>
+body{
+	position:relative;
+}
+
+#ball{
+	position:absolute;
+	width:200px;
+	height:200px;
+	background-color:grey;
+	border-radius:100px;
+	margin-left:200px;
+	margin-top:200px;
+	text-align:center;
+	
+}
+</style>
+</head>
+<body>
+<div class="container">
+<div id="ball" onmouseover="writeText()">&nbsp;&nbsp;&nbsp;&nbsp;</div>
+</div>
+</body>
+</html>

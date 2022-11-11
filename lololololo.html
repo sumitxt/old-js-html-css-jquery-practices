@@ -1,0 +1,38 @@
+<html>
+	<head>
+		<title>Custom Animation</title>
+		<script src="jquery-1.7.1.min.js"></script>
+	<style>
+	
+	
+		</style>
+		
+		</head>
+		<body>
+		<h2>Headline</h2>
+	   <p>there are some texts,there are some texts,there are some texts,there are some texts,v,there are some texts
+		there are some texts,there are some texts,there are some texts,there are some texts,v,there are some textsthere are some texts,there are some texts,there are some texts,there are some texts,v,there are some textsthere are some texts,there are some texts,there are some texts,there are some texts,v,there are some textsthere are some texts,there are some texts,there are some texts,there are some texts,v,there are some textsthere are some texts,there are some texts,there are some texts,there are some texts,v,there are some textsthere are some texts,there are some texts,there are some texts,there are some texts,v,there are some textsthere are some texts,there are some texts,there are some texts,there are some texts,v,there are some textsthere are some texts,there are some texts,there are some texts,there are some texts,v,there are some textsthere are some texts,there are some texts,there are some texts,there are some texts,v,there are some textsthere are some texts,there are some texts,there are some texts,there are some texts,v,there are some textsthere are some texts,there are some texts,there are some texts,there are some texts,v,there are some textsthere are some texts,there are some texts,there are some texts,there are some texts,v,there are some textsthere are some texts,there are some texts,there are some texts,there are some texts,v,there are some text</p>
+		<h3>Headline 3</h3>
+	   <p>there are some texts,there are some texts,there are some texts,there are some texts,v,there are some texts
+		there are some texts,there are some texts,there are some texts,there are some texts,v,there are some textsthere are some texts,there are some texts,there are some texts,there are some texts,v,there are some textsthere are some texts,there are some texts,there are some texts,there are some texts,v,there are some textsthere are some texts,there are some texts,there are some texts,there are some texts,v,there are some textsthere are some texts,there are some texts,there are some texts,there are some texts,v,there are some textsthere are some texts,there are some texts,there are some texts,there are some texts,v,there are some textsthere are some texts,there are some texts,there are some texts,there are some texts,v,there are some textsthere are some texts,there are some texts,there are some texts,there are some texts,v,there are some textsthere are some texts,there are some texts,there are some texts,there are some texts,v,there are some textsthere are some texts,there are some texts,there are some texts,there are some texts,v,there are some textsthere are some texts,there are some texts,there are some texts,there are some texts,v,there are some textsthere are some texts,there are some texts,there are some texts,there are some texts,v,there are some textsthere are some texts,there are some texts,there are some texts,there are some texts,v,there are some text</p>
+		</body>
+		<script>
+		
+		
+		$(document).ready(function(){
+		$('p:first').toggle(function(){
+		$(this).animate({'height':"+=250px"},2000,'linear')
+		
+		},function(){
+		$(this).animate({'height':"-=250px"},2000,'swing')
+		
+		});
+		
+         
+		});
+		
+		
+		</script>
+		
+	</body>
+</html>

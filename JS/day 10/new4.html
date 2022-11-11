@@ -1,0 +1,29 @@
+<html>
+<head>
+<script>
+	function message(){
+		try
+			{
+				alert("welcome");
+			}
+		catch(error)
+			{
+				show="This page Contains an error, \n";
+				show+="Click ok to continue. \n";
+				var c=confirm(show);
+				if(c==true){
+					alert("you are redirecting");
+				}
+				else{
+					alert("Thank you!");
+				}
+			}
+	}
+
+</script>
+</head>
+<body>
+<input type="button" value="view message" onclick="message()" />
+
+</body>
+</html>

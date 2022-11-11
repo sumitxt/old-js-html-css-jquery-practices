@@ -1,0 +1,82 @@
+#main{
+	background-color:#ccc;
+	font-family:arial,verdana,serif;
+	width:960px;
+	margin:auto;
+}
+
+#header{
+	background-color:orange;
+	height:100px;
+}
+
+#header h1{
+	text-align:center;
+	padding-top:20px;
+}
+
+#header a{
+	text-decoration:none;
+}
+
+#navigation{
+	height:60px;
+	background-color:white;
+	padding-top:1px;
+}
+
+#navigation ul{
+	list-style:none;
+}
+
+#navigation li{
+	display:inline;
+	margin:10px;
+}
+
+/*Pseodu class selector*/
+#navigation li a:link,#navigation li a:visited{
+	font-weight:bold;
+	color:green;
+	border:1px solid red;
+	border-radius:25px;
+	padding:5px;
+	text-decoration:none;
+	background-color:aliceBlue;
+}
+
+#navigation li a:hover{
+	background-color:coral;
+	color:red;
+}
+
+#content{
+	width:665px;
+	float:left;
+	background-color:#868687;
+	padding:0 20px 0 15px;
+	line-height:25px;
+}
+
+#sidebar{
+	width:260px;
+	float:left;
+	background-color:#dddee0;
+}
+
+#sidebar h3{
+	text-align:center;
+	background-color:red;
+}
+
+#sidebar ul{
+	list-style:none;
+}
+#footer{
+	height:150px;
+	background-color:#d1d2d5;
+}
+
+.clear{
+	clear:left;
+}
